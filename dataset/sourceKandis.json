@@ -1,5 +1,5 @@
 {
-	"name": "Source01",
+	"name": "sourceKandis",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
