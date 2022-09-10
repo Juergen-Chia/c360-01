@@ -1,0 +1,410 @@
+{
+	"name": "Source01",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "RawData_20220714164825 - Kandis.xlsx",
+				"fileSystem": "dailysales"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Company",
+				"type": "String"
+			},
+			{
+				"name": "Project",
+				"type": "String"
+			},
+			{
+				"name": "Block",
+				"type": "String"
+			},
+			{
+				"name": "Unit No.",
+				"type": "String"
+			},
+			{
+				"name": "Serial",
+				"type": "String"
+			},
+			{
+				"name": "Sub No.",
+				"type": "String"
+			},
+			{
+				"name": "Reference No.",
+				"type": "String"
+			},
+			{
+				"name": "EC Registration No.",
+				"type": "String"
+			},
+			{
+				"name": "Design Type",
+				"type": "String"
+			},
+			{
+				"name": "Unit Type",
+				"type": "String"
+			},
+			{
+				"name": "Billing Plan",
+				"type": "String"
+			},
+			{
+				"name": "Transaction Date",
+				"type": "String"
+			},
+			{
+				"name": "Area (Sqm)",
+				"type": "String"
+			},
+			{
+				"name": "Area (Sqf)",
+				"type": "String"
+			},
+			{
+				"name": "List Price",
+				"type": "String"
+			},
+			{
+				"name": "Transaction Price",
+				"type": "String"
+			},
+			{
+				"name": "Incentive Code",
+				"type": "String"
+			},
+			{
+				"name": "Incentive Description",
+				"type": "String"
+			},
+			{
+				"name": "Mailing Block",
+				"type": "String"
+			},
+			{
+				"name": "Mailing Unit No.",
+				"type": "String"
+			},
+			{
+				"name": "Mailing Street",
+				"type": "String"
+			},
+			{
+				"name": "Mailing Building",
+				"type": "String"
+			},
+			{
+				"name": "Mailing Country",
+				"type": "String"
+			},
+			{
+				"name": "Mailing Postal Code",
+				"type": "String"
+			},
+			{
+				"name": "External Agency Code",
+				"type": "String"
+			},
+			{
+				"name": "External Agency Name",
+				"type": "String"
+			},
+			{
+				"name": "External Agent Tel No.",
+				"type": "String"
+			},
+			{
+				"name": "External Agent Block",
+				"type": "String"
+			},
+			{
+				"name": "External Agent Unit No",
+				"type": "String"
+			},
+			{
+				"name": "External Agent Street",
+				"type": "String"
+			},
+			{
+				"name": "External Agent Building",
+				"type": "String"
+			},
+			{
+				"name": "External Agent Country",
+				"type": "String"
+			},
+			{
+				"name": "External Agent Postal Code",
+				"type": "String"
+			},
+			{
+				"name": "Joint Agency Code",
+				"type": "String"
+			},
+			{
+				"name": "Joint Agent Name",
+				"type": "String"
+			},
+			{
+				"name": "Joint Agent Tel No.",
+				"type": "String"
+			},
+			{
+				"name": "Furnish Category",
+				"type": "String"
+			},
+			{
+				"name": "Furnish Category Description",
+				"type": "String"
+			},
+			{
+				"name": "Furnish Choice",
+				"type": "String"
+			},
+			{
+				"name": "Furnish Choice Description",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			},
+			{
+				"name": "Purchaser 1",
+				"type": "String"
+			},
+			{
+				"name": "Date Of Birth 1",
+				"type": "String"
+			},
+			{
+				"name": "Document Type 1",
+				"type": "String"
+			},
+			{
+				"name": "Document No. 1",
+				"type": "String"
+			},
+			{
+				"name": "Race 1",
+				"type": "String"
+			},
+			{
+				"name": "Occupation Code 1",
+				"type": "String"
+			},
+			{
+				"name": "Citizen 1",
+				"type": "String"
+			},
+			{
+				"name": "Nation Code 1",
+				"type": "String"
+			},
+			{
+				"name": "Tel Residential 1",
+				"type": "String"
+			},
+			{
+				"name": "Tel Office 1",
+				"type": "String"
+			},
+			{
+				"name": "HandPhone 1",
+				"type": "String"
+			},
+			{
+				"name": "Fax 1",
+				"type": "String"
+			},
+			{
+				"name": "Email 1",
+				"type": "String"
+			},
+			{
+				"name": "Purchaser 2",
+				"type": "String"
+			},
+			{
+				"name": "Date Of Birth 2",
+				"type": "String"
+			},
+			{
+				"name": "Document Type 2",
+				"type": "String"
+			},
+			{
+				"name": "Document No. 2",
+				"type": "String"
+			},
+			{
+				"name": "Race 2",
+				"type": "String"
+			},
+			{
+				"name": "Occupation Code 2",
+				"type": "String"
+			},
+			{
+				"name": "Citizen 2",
+				"type": "String"
+			},
+			{
+				"name": "Nation Code 2",
+				"type": "String"
+			},
+			{
+				"name": "Tel Residential 2",
+				"type": "String"
+			},
+			{
+				"name": "Tel Office 2",
+				"type": "String"
+			},
+			{
+				"name": "HandPhone 2",
+				"type": "String"
+			},
+			{
+				"name": "Fax 2",
+				"type": "String"
+			},
+			{
+				"name": "Email 2",
+				"type": "String"
+			},
+			{
+				"name": "Purchaser 3",
+				"type": "String"
+			},
+			{
+				"name": "Date Of Birth 3",
+				"type": "String"
+			},
+			{
+				"name": "Document Type 3",
+				"type": "String"
+			},
+			{
+				"name": "Document No. 3",
+				"type": "String"
+			},
+			{
+				"name": "Race 3",
+				"type": "String"
+			},
+			{
+				"name": "Occupation Code 3",
+				"type": "String"
+			},
+			{
+				"name": "Citizen 3",
+				"type": "String"
+			},
+			{
+				"name": "Nation Code 3",
+				"type": "String"
+			},
+			{
+				"name": "Tel Residential 3",
+				"type": "String"
+			},
+			{
+				"name": "Tel Office 3",
+				"type": "String"
+			},
+			{
+				"name": "HandPhone 3",
+				"type": "String"
+			},
+			{
+				"name": "Fax 3",
+				"type": "String"
+			},
+			{
+				"name": "Email 3",
+				"type": "String"
+			},
+			{
+				"name": "Bank Code 1",
+				"type": "String"
+			},
+			{
+				"name": "Bank In Date 1",
+				"type": "String"
+			},
+			{
+				"name": "Payment Mode 1",
+				"type": "String"
+			},
+			{
+				"name": "Cheque No. 1",
+				"type": "String"
+			},
+			{
+				"name": "Cheque Date 1",
+				"type": "String"
+			},
+			{
+				"name": "Cheque Amount 1",
+				"type": "String"
+			},
+			{
+				"name": "Bank Code 2",
+				"type": "String"
+			},
+			{
+				"name": "Bank In Date 2",
+				"type": "String"
+			},
+			{
+				"name": "Payment Mode 2",
+				"type": "String"
+			},
+			{
+				"name": "Cheque No. 2",
+				"type": "String"
+			},
+			{
+				"name": "Cheque Date 2",
+				"type": "String"
+			},
+			{
+				"name": "Cheque Amount 2",
+				"type": "String"
+			},
+			{
+				"name": "House Hold Type",
+				"type": "String"
+			},
+			{
+				"name": "APPLICANT 1 INCOME",
+				"type": "String"
+			},
+			{
+				"name": "APPLICANT 2 INCOME",
+				"type": "String"
+			},
+			{
+				"name": "APPLICANT 3 INCOME",
+				"type": "String"
+			},
+			{
+				"name": "APPLICANT 4 INCOME",
+				"type": "String"
+			}
+		]
+	}
+}
