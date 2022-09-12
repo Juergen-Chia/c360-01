@@ -1,0 +1,405 @@
+{
+	"name": "sinkSSDailySales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsSSDailySales",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Company",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Project",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Block",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Unit No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Serial",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Sub No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Reference No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EC Registration No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Design Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Unit Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Billing Plan",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Transaction Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Area (Sqm)",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Area (Sqf)",
+				"type": "nvarchar"
+			},
+			{
+				"name": "List Price",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Transaction Price",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Incentive Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Incentive Description",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Mailing Block",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Mailing Unit No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Mailing Street",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Mailing Building",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Mailing Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Mailing Postal Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agency Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agency Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agent Tel No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agent Block",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agent Unit No",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agent Street",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agent Building",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agent Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "External Agent Postal Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Joint Agency Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Joint Agent Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Joint Agent Tel No.",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Furnish Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Furnish Category Description",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Furnish Choice",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Furnish Choice Description",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Status",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Purchaser 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Date Of Birth 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Document Type 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Document No. 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Race 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Occupation Code 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Citizen 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Nation Code 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Tel Residential 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Tel Office 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "HandPhone 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Fax 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Email 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Purchaser 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Date Of Birth 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Document Type 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Document No. 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Race 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Occupation Code 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Citizen 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Nation Code 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Tel Residential 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Tel Office 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "HandPhone 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Fax 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Email 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Purchaser 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Date Of Birth 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Document Type 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Document No. 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Race 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Occupation Code 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Citizen 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Nation Code 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Tel Residential 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Tel Office 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "HandPhone 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Fax 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Email 3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Bank Code 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Bank In Date 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Payment Mode 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Cheque No. 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Cheque Date 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Cheque Amount 1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Bank Code 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Bank In Date 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Payment Mode 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Cheque No. 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Cheque Date 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Cheque Amount 2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "House Hold Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "APPLICANT 1 INCOME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "APPLICANT 2 INCOME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "APPLICANT 3 INCOME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "APPLICANT 4 INCOME",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo.",
+			"table": "dbo.autoDS"
+		}
+	}
+}
