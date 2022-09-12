@@ -1,0 +1,9 @@
+{
+	"name": "copyCSVtoSS",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4b9f8b1b-696b-4972-a0b1-e90568f3d370",
+		"tenantId": "f4f4cb29-e827-4426-8686-2ada8ee2fe85"
+	}
+}
