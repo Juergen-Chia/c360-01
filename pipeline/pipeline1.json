@@ -27,7 +27,7 @@
 					},
 					"sink": {
 						"type": "SqlServerSink",
-						"preCopyScript": "delete from dbo.autoDS",
+						"preCopyScript": "delete from autoDS",
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false
 					},
