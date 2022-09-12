@@ -12,7 +12,8 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileSystem": "dailysales"
-			}
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": [
 			{
